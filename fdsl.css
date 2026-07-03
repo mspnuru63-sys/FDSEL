@@ -800,7 +800,7 @@ h4 { font-family: monospace; }
 }
 .newsletter input[type="submit"] {
   background: rgb(222, 228, 240);
-  color:black;
+  color:white;
   font-weight:bold;
 }
 .newsletter p{
