@@ -860,6 +860,28 @@ h4 { font-family: monospace; }
   top: 10px;
   color: #cec7c7;
 }
+.boite-contact{
+  gap: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(210, 245, 165);
+}
+
+.conteneur-contact{
+  background: white;
+  width: 500px;
+  min-height: 300px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 12px;
+}
 .h1-mission {
   position: relative;
   top: -180px;
