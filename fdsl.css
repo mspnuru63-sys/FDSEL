@@ -1013,6 +1013,17 @@ h4 { font-family: monospace; }
     margin-bottom:10px ;
 
   }
+  .boite-contact h1{
+    color: rgb(0, 0, 126);
+  }
+
+  .conteneur-contact{
+    width: 387px;
+    color: rgb(104, 103, 103);
+  }
+  .contact{
+    margin-left: 81px;
+  }
 .contenu-rapport { width: 100vw; height: 100vh; margin-bottom: 0 }
 
   
@@ -1074,7 +1085,7 @@ h4 { font-family: monospace; }
   }
 
   /* TOP BAR */
-  .topbar { flex-direction: column; gap: 6px; padding: 8px 16px; text-align: center; }
+  .topbar { display: none; gap: 6px; padding: 8px 16px; text-align: center; }
   .topbar__contact { flex-wrap: wrap; justify-content: center; gap: 12px; }
 
   /* HEADER */
