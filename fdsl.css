@@ -856,7 +856,7 @@ h4 { font-family: monospace; }
 .carte-mission p {
   width: 500px;
   position: relative;
-  left: 20px;
+  left: 100px;
   top: 10px;
   color: #cec7c7;
 }
