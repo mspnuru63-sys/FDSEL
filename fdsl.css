@@ -726,7 +726,7 @@ h4 { font-family: monospace; }
   width: 1236px;
   justify-content: center;
   align-items: center;
-  background-color:rgb(233, 231, 231);
+  background-color:#eeeeee;
   border-radius: 10px;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.637);
   flex-wrap: wrap;
@@ -745,7 +745,6 @@ h4 { font-family: monospace; }
   justify-content: center;
   align-items: center;
   gap: 10px;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.267);
   transition: 0.1s;
 }
 .boite-acteur:hover {
