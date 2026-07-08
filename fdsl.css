@@ -43,11 +43,12 @@ img { display: block; max-width: 100%; }
 
 /* ── 1. TOP BAR ── */
 .topbar {
+  display: none;
   background: var(--clr-dark);
   color: var(--clr-muted);
   font-size: 0.8rem;
   padding: 6px 40px;
-  display: flex;
+  
   justify-content: space-between;
   align-items: center;
 }
@@ -72,7 +73,7 @@ img { display: block; max-width: 100%; }
 /* ── 2. HEADER / NAV (desktop) ── */
 .header {
   background: var(--clr-dark);
-  padding: 14px 40px;
+  padding: 1px 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -85,7 +86,7 @@ img { display: block; max-width: 100%; }
 .header__logo { display: flex; align-items: center; gap: 10px; }
 
 .header__logo h3 { color: var(--clr-accent); font-size: 40px; text-shadow: 0 1px 1px black; }
-.header__logo-text { font-size: 0.65rem; color: #555; line-height: 1.3; max-width: 140px; }
+.header__logo-text { font-size: 7px; color: #d8ecea; line-height: 1.3; max-width: 140px; }
 
 .nav { display: flex; align-items: center; gap: 6px; }
 
@@ -257,7 +258,7 @@ body.nav-open { overflow: hidden; }
 .hero .flou {
   width: 100%;
   height: 100%;
-  background: linear-gradient(45deg, black, rgba(0, 0, 0, 0.158));
+  background: linear-gradient(45deg, black, rgba(1, 9, 122, 0.158));
   position: absolute;
 }
 .hero__content { max-width: 620px; z-index: 2; margin-left: 20px; }
