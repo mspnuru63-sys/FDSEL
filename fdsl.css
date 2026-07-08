@@ -703,12 +703,12 @@ h4 { font-family: monospace; }
 .progress2 { position: absolute; top: 500px; accent-color: var(--clr-dark); }
 .progress3 { position: absolute; right: 175px; top: 500px; accent-color: var(--clr-dark); }
 
-.acteur { text-decoration-color: #ff3300; text-underline-offset: 25px; }
+.acteur { text-decoration-color: #ff3300; text-underline-offset: 25px; display: none;}
 
 .partie3 {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(45deg, rgb(39, 1, 88), rgb(67, 39, 221));
+  background: white;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.301);
   display: flex;
   flex-direction: column;
@@ -716,8 +716,8 @@ h4 { font-family: monospace; }
   align-items: center;
 }
 .titre-personnel {
-  color: white;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.384);
+  color: rgb(31, 30, 30);
+  
   position: relative;
   bottom: 45px;
 }
@@ -726,7 +726,7 @@ h4 { font-family: monospace; }
   width: 1236px;
   justify-content: center;
   align-items: center;
-  background-color: rgba(87, 2, 185, 0.425);
+  background-color:rgb(233, 231, 231);
   border-radius: 10px;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.637);
   flex-wrap: wrap;
