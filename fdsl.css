@@ -250,7 +250,7 @@ body.nav-open { overflow: hidden; }
 .hero {
   position: relative;
   height: 100vh;
-  background: url("images/elcr.webp") center/cover;
+  background: url("images/Imagespieces.jpg") center/cover;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -391,6 +391,7 @@ body.nav-open { overflow: hidden; }
   text-wrap: balance;
   font-size: 15px;
   color: rgb(60, 84, 107);
+  text-justify: center;
 }
 
 .textefdsel{
@@ -431,6 +432,8 @@ body.nav-open { overflow: hidden; }
   display: flex;
   gap: 20px;
   padding: 20px;
+  justify-content: center;
+  align-items: center;
 
   
 }
@@ -457,12 +460,58 @@ body.nav-open { overflow: hidden; }
   height: 200px;
   background-position: center;
   background-size: cover;
-  
-  
-  
-  
-  
 }
+  
+.projets{
+  height: 100vh;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-evenly;
+  
+  
+  gap: 20px;
+}
+
+.secteur{
+  position: relative;
+  font-size: 50px;
+  margin: 20px;
+  margin-bottom: 50px;
+  color: #000000;
+}
+.secteur::after{
+  content: "";
+  width: 100px;
+  height: 5px;
+  background: rgb(81, 255, 0);
+  position: absolute;
+  border-radius: 20px;
+  left: 500px;
+}
+.carte-projets{
+  padding: 10px;
+  width: 400px;
+
+
+}
+.carte-projets p{
+  color: #4b4a4a;
+  width: 200px;
+  position: relative;
+  left: 18px;
+  top: 20px;
+  text-align: center;
+}
+.carte-projets img{
+  width: 250px;
+  
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid  rgb(1, 179, 10);
+}
+  
+  
 
 
 
@@ -715,7 +764,7 @@ h4 { font-family: monospace; }
 .img-presentation {
   width: 800px;
   height: 460px;
-  background: url("images/ImageImeublesmoderne.jpg") center/cover;
+  background: url("images/images (3).jpeg") center/cover;
   border-radius: 12px;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.301) inset;
   margin-left: 10px;
