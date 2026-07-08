@@ -250,7 +250,7 @@ body.nav-open { overflow: hidden; }
 .hero {
   position: relative;
   height: 100vh;
-  background: url("images/imagecouloir.jpg") center/cover;
+  background: url("images/elcr.webp") center/cover;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -258,7 +258,7 @@ body.nav-open { overflow: hidden; }
 .hero .flou {
   width: 100%;
   height: 100%;
-  background: linear-gradient(45deg, black, rgba(1, 9, 122, 0.158));
+  background: linear-gradient(45deg, black, rgba(255, 255, 255, 0.158));
   position: absolute;
 }
 .hero__content { max-width: 620px; z-index: 2; margin-left: 20px; }
@@ -427,10 +427,45 @@ body.nav-open { overflow: hidden; }
 }
 .pack{
   height: 100vh;
-  background: rgb(145, 251, 255);
-  position: relative;
-  top: 500px;
+  background: rgb(244, 255, 255);
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+
+  
 }
+
+.boite-main{
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  width: 400px;
+  background: white;
+  height: 350px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.205);
+}
+.boite-main p{
+  color: #4a5f63;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  
+}
+.boite-main img{
+  border-radius: 5px;
+  margin-top: auto;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  
+  
+  
+  
+  
+}
+
+
+
 #main-content { background-color: white; min-height: 100vh;width: 100vw;}
 
 .contenue {
