@@ -1056,8 +1056,8 @@ h4 { font-family: monospace; }
 }
 
 .titre-h3{
-  color: #0ee95e;
-  font-size: 2rem;
+  color: #07c24b;
+  font-size: 4rem;
 }
 .progress1 { position: absolute; left: 175px; top: 500px; accent-color: var(--clr-dark); }
 .progress2 { position: absolute; top: 500px; accent-color: var(--clr-dark); }
@@ -1139,6 +1139,8 @@ h4 { font-family: monospace; }
   height: 400px;
   background: url("images/projet.jpg") center/cover;
   border-bottom: 10px solid rgb(16, 250, 16);
+  position: relative;
+  top: 0;
 }
 .main-page{
   width: 100vw;
@@ -1180,8 +1182,10 @@ h4 { font-family: monospace; }
   background: linear-gradient(45deg, rgb(20, 20, 20), rgba(133, 129, 129, 0.274));
   position: relative;
   top: 0;
+  margin-top: 0;
 }
-.titre-mission { position: relative; bottom: 300px; left: 30px; }
+.titre-mission { position: relative; bottom: 300px; left: 30px;  }
+
 
 .ligne1 {
   width: 700px; height: 10px; background-color: greenyellow;
