@@ -1302,6 +1302,8 @@ h4 { font-family: monospace; }
   border-top-right-radius: 12px;
   color: white;
   text-align: center;
+  position: relative;
+  top: -13px;
 }
 
 .conteneur-mission {
