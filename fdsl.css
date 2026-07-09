@@ -378,8 +378,8 @@ body.nav-open { overflow: hidden; }
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: rgb(255, 217, 0);
-  box-shadow: 1px 1px 1px black;
+  background: rgb(0, 16, 107);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   position:relative;
   left: calc(50% - 50px);
   top: 100px;
@@ -393,10 +393,11 @@ body.nav-open { overflow: hidden; }
   top: 86px;
   font-style:oblique ;
   width: 700px;
-  text-wrap: balance;
+  
   font-size: 15px;
   color: rgb(60, 84, 107);
-  text-justify: center;
+  align-content: center;
+  text-align: center;
 }
 
 .textefdsel{
@@ -410,7 +411,7 @@ body.nav-open { overflow: hidden; }
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: rgb(185, 1, 1);
+  background: rgb(1, 211, 19);
   position:relative;
   left: calc(50% - 20px);
   top:60px;
@@ -630,9 +631,16 @@ body.nav-open { overflow: hidden; }
 .cadre-juridique{
   width: 100vw;
   height: 500px;
-  background: red;
+  background: rgb(248, 250, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
 }
+
 .texte-juridique{
+  
   width: 400px;
   text-align: center;
   height: 300px;
@@ -642,10 +650,14 @@ body.nav-open { overflow: hidden; }
 
  
 }
-.cadre-juridique p{
-  width: 100%;
-  height: 100px;
-  background: red;
+.cadre-juridique img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.185);
+  border-radius: 5px;
+
+
 }
 .div-cadre img{
   width: 300px;
@@ -667,6 +679,7 @@ body.nav-open { overflow: hidden; }
 
 .conteneur-div-cadre{
   margin-top: 200px;
+  margin-bottom: 200px;
   padding: 20px;
   display: flex;
   background: rgb(247, 244, 244);
@@ -682,15 +695,37 @@ body.nav-open { overflow: hidden; }
   align-content: center;
   font-weight: bold;
   border-top-right-radius: 50px;
+  position: relative;
+}
+.boite-cadre img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: 90px;
+  
+}  
+
+
+.boite-cadre p::before{
+  content: "";
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  background: rgb(0, 27, 78);
+  top:0;
+  left: 0;
+  border-bottom-right-radius: 20px;
   
 
 }
-
-
 .boite-cadre{
   display: flex;
   gap: 15px;
   flex-direction: column;
+  position: relative;
 }
 .loi-reg{
   text-align: center;
@@ -900,7 +935,7 @@ h4 { font-family: monospace; }
   position: absolute;
   background-color: var(--clr-dark);
   border-radius: 50%;
-  top: 120px;
+  top: 50px;
   left: 500px;
   border: 8px solid var(--clr-accent);
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.336);
@@ -921,7 +956,8 @@ h4 { font-family: monospace; }
 .titre-presentation {
   position: relative;
   left: 500px;
-  margin-top: 25px;
+  top: 0;
+  margin-top: 100px;
   color: var(--clr-dark);
   font-family: monospace;
   text-decoration: underline;
@@ -949,8 +985,8 @@ h4 { font-family: monospace; }
 .img-presentation {
   width: 800px;
   height: 460px;
-  background: url("images/images (3).jpeg") center/cover;
-  border-radius: 12px;
+  background: url("images/images (13).jpeg") center/cover;
+  border-radius: 5px;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.301) inset;
   margin-left: 10px;
   position: relative;
@@ -1041,18 +1077,20 @@ h4 { font-family: monospace; }
 }
 .titre-personnel {
   color: rgb(31, 30, 30);
+  margin-bottom: 100px;
   
   position: relative;
   bottom: 45px;
+  top: 0;
 }
 .conteneur-acteur {
   display: flex;
   width: 1236px;
   justify-content: center;
   align-items: center;
-  background-color:#eeeeee;
+  background-color:#fffdfd;
   border-radius: 10px;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.637);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.247);
   flex-wrap: wrap;
   padding: 8px;
   column-gap: 2px;
@@ -1070,6 +1108,8 @@ h4 { font-family: monospace; }
   align-items: center;
   gap: 10px;
   transition: 0.1s;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.247);
+
 }
 .boite-acteur:hover {
   scale: 1.05;
@@ -1138,6 +1178,8 @@ h4 { font-family: monospace; }
   width: 100%;
   height: 400px;
   background: linear-gradient(45deg, rgb(20, 20, 20), rgba(133, 129, 129, 0.274));
+  position: relative;
+  top: 0;
 }
 .titre-mission { position: relative; bottom: 300px; left: 30px; }
 
