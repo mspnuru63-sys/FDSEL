@@ -796,7 +796,7 @@ body.nav-open { overflow: hidden; }
 .deuxiemecontenu {
   width: 100vw;
   height: 100vh;
-  background: url("images/imageImeubles.jpg") center/cover;
+  background: url("images/immeuble.jpg") center/cover;
   position: relative;
 }
 .flou-deuxieme {
