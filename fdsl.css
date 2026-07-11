@@ -1697,13 +1697,13 @@ h4 { font-family: monospace; }
     height: 100vh;
     width: 100vw;
     }
-        .conteneur-big {
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-        justify-content: space-between;
-        /* height: 200vh; */
-    }
+    .conteneur-big {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: space-between;
+    height: 10vh;
+}
 }
 
 
