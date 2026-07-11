@@ -1692,10 +1692,10 @@ h4 { font-family: monospace; }
     #main-content {
     height: 30vh;
     }
-    
+
     .big-image {
     display: flex;
-    height: 150vh;
+    height: 130vh;
     width: 100vw;
     }
     .conteneur-big {
