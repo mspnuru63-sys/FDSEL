@@ -1690,7 +1690,7 @@ h4 { font-family: monospace; }
      
     }
     #main-content {
-    height: 100vh;
+    height: 30vh;
     }
     .big-image {
     display: flex;
