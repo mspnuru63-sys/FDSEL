@@ -1681,7 +1681,7 @@ h4 { font-family: monospace; }
     transform: translateY(-8px) rotate(-45deg);
   }
 }
-@media (max-width: 400px){
+/* @media (max-width: 400px){
   .textefdsel p {
       left: 60px;
     }
@@ -1707,4 +1707,4 @@ h4 { font-family: monospace; }
 }
 }
 
-
+ */
