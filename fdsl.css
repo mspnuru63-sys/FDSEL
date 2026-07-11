@@ -1695,8 +1695,8 @@ h4 { font-family: monospace; }
 
     .big-image {
     display: flex;
-    height: 130vh;
-    width: 100vw;
+    height: 100vh;
+    width: 150vw;
     }
     .conteneur-big {
     display: flex;
