@@ -1681,3 +1681,21 @@ h4 { font-family: monospace; }
     transform: translateY(-8px) rotate(-45deg);
   }
 }
+@media (max-width: 700px){
+  .textefdsel p {
+      left: 60px;
+    }
+    .secteur {
+      height: 20vh;
+     
+    }
+    #main-content {
+    height: 150vh;
+    }
+    .big-image {
+    display: flex;
+    height: 150vh;
+    width: 100vw;
+}
+}
+
