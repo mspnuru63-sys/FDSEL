@@ -1681,7 +1681,7 @@ h4 { font-family: monospace; }
     transform: translateY(-8px) rotate(-45deg);
   }
 }
-@media (max-width: 700px){
+@media (max-width: 600px){
   .textefdsel p {
       left: 60px;
     }
